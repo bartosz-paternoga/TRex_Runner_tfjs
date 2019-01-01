@@ -40,7 +40,7 @@ main = () => {
 
   const y = async() => {
   console.log("model0")
-  model = await tf.loadModel('/model/model.json');
+  model = await tf.loadModel('./model/model.json');
     console.log("model",model)
 
   }
