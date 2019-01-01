@@ -1,4 +1,4 @@
-TRex Runner is a game powered by machine learning algorithm. Artificial neural network model build with TensorFlow.js, UI done with React. 
+TRex Runner is a game powered by machine learning algorithm. Artificial neural network model build an trained with TensorFlow.js, UI done with React. 
 
 Live demo:
 
