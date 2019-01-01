@@ -75,7 +75,7 @@ body {
 
 #btn1, #btn2 {
   margin: 20px;
-  margin-top: 50px;
+  margin-top: 20px;
   display: inline-flex;
 
   background-color: lightgray;  
@@ -87,4 +87,11 @@ body {
 
   font-size: 12px;
   cursor:pointer;
+}
+
+#playerInfo {
+
+  margin-top: 30px;
+  text-align: center;
+
 }

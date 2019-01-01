@@ -39,15 +39,14 @@ main = () => {
   let model  
 
   const y = async() => {
-  console.log("model0")
+
   model = await tf.loadModel('./model/model.json');
-    console.log("model",model)
+  console.log("model loaded",model)
 
   }
 
   const z = async () => {
   await y();
-  console.log("model",model)
   }
 
   z();
@@ -2952,9 +2951,10 @@ main = () => {
           </div>
 
           <div>
-          <center> 
-            <p id = "btn1" type="submit"  onClick = {this.humanPlayer} >Human player</p>
-            <p id = "btn2" type="submit"  onClick = {this.aiPlayer} >A.I. tfjs player</p>
+            <center> 
+              <pre id="playerInfo"></pre>
+              <p id = "btn1" type="submit"  onClick = {this.humanPlayer} >Human player</p>
+              <p id = "btn2" type="submit"  onClick = {this.aiPlayer} >A.I. tfjs player</p>
             </center> 
           </div>
 
