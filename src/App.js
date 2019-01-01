@@ -64,14 +64,18 @@ main = () => {
 
 
   document.getElementById("btn1").addEventListener("click", aiCheck);
-
+  let pred = document.getElementById("playerInfo");
+  pred.innerHTML = "Player Mode: A.I. player activated";
+  
   function aiCheck() {
-    stateAi = "false"
+    stateAi = "false";
+    pred.innerHTML = "Player Mode: Human player activated";
   }
   document.getElementById("btn2").addEventListener("click", humanCheck);
 
   function humanCheck() {
-    stateAi = "true"
+    stateAi = "true";
+    pred.innerHTML = "Player Mode: A.I. player activated";
   }
 
 
